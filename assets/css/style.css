@@ -518,8 +518,9 @@ footer{
 
   #contato h1 {
     font-size: 3vh;
+    font-family: League-SBold;
   }
-
+  
   #contato .h2Text {
     font-size: 2vh;
   }
