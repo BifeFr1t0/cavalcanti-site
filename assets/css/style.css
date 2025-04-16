@@ -407,7 +407,9 @@ footer{
 .bi-instagram:hover {
   color: rgb(170, 39, 137);
 }
-
+#contato h1{
+  font-family: League-Bold;
+}
 @keyframes text {
   0%{
     visibility: hidden;
@@ -518,7 +520,7 @@ footer{
 
   #contato h1 {
     font-size: 3vh;
-    font-family: League-Bold;
+    
   }
   
   #contato .h2Text {
