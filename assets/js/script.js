@@ -10,7 +10,7 @@ function delay (URL) {
     setTimeout( function() { window.location = URL }, 100 );
 }
 
-function redirectWhatsapp(){
+function redirectPage(){
     const redirectWhatsapp = document.querySelector('.redirectWhatsapp')
     const redirectFacebook = document.querySelector('.bi-facebook')
     const redirectInstagram = document.querySelector('.bi-instagram')
@@ -44,7 +44,6 @@ function redirectWhatsapp(){
         })
     
 }
-redirectWhatsapp()
 
 function startPage(){
     window.addEventListener('load',()=>{
@@ -63,4 +62,14 @@ function startPage(){
     })
 }
 
+function website(){
+    const nameSite = document.querySelector('.text')
+    const imgSite = document.querySelector('.image')
+    let web = [nameSite,imgSite]
+
+    web.forEach(element => element.addEventListener('click',()=>{location.reload()}))
+}
+
+redirectPage()
 startPage()
+website()
