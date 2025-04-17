@@ -18,7 +18,7 @@ function redirectPage(){
         redirectWhatsapp.addEventListener("click", ()=>{
             redirectWhatsapp.classList.add("rotationAnimation")
             setTimeout(()=>{
-            window.open("https://wa.me/5515991604132?text=Ol%C3%A1%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!")
+            window.location.href = ("https://wa.me/5515991604132?text=Ol%C3%A1%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!")
             redirectWhatsapp.classList.remode("rotationAnimation")
             },1500) 
         })
@@ -35,7 +35,7 @@ function redirectPage(){
             redirectInstagram.classList.add("rotationMediaAnimation")
             redirectInstagram.style.color="rgb(170, 39, 137)"
             setTimeout(()=>{
-            window.open("https://www.instagram.com/cavalcanti.servicos/")
+            window.location.href = ("https://www.instagram.com/cavalcanti.servicos/")
             redirectInstagram.classList.remove("rotationMediaAnimation")
             redirectInstagram.style.color="rgb(197, 197, 252)"
             },1900) 
